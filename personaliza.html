@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Diseña tu pastel | Alma & Azúcar</title>
+  <meta name="description" content="Solicita una torta personalizada indicando ocasión, porciones, sabor, relleno, diseño, fecha y foto de referencia.">
+  <meta name="theme-color" content="#382522"><link rel="icon" href="assets/logo.svg" type="image/svg+xml"><link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/config.js"></script><script defer src="assets/app.js"></script><script defer src="assets/custom-order.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#contenido">Saltar al contenido</a><div data-site-header></div>
+<main id="contenido">
+  <section class="page-hero"><div class="container page-hero-grid">
+    <div><p class="eyebrow">Pedido personalizado</p><h1>Diseña un pastel que hable de tu celebración.</h1><p class="lead">Completa los detalles esenciales en 4 pasos. Verás un estimado orientativo; la cotización final se confirma según diseño y disponibilidad.</p></div>
+    <div class="page-kicker"><strong>Tiempo recomendado</strong><p class="mt-8">Solicita diseños personalizados con al menos 3 días de anticipación. Trabajos complejos, modelados o eventos grandes pueden requerir más tiempo.</p></div>
+  </div></section>
+
+  <section class="section-sm"><div class="container form-shell">
+    <div class="form-card">
+      <div class="form-progress" aria-hidden="true"><span class="progress-dot active"></span><span class="progress-dot"></span><span class="progress-dot"></span><span class="progress-dot"></span></div>
+      <form data-custom-form novalidate>
+        <section class="form-step active">
+          <p class="eyebrow">Paso 1 de 4</p><h2>La celebración</h2><p>Primero necesito entender para qué momento estamos creando.</p>
+          <div class="option-grid" data-required-group="occasion">
+            <label class="option"><input type="radio" name="occasion" value="cumpleanos" required><span><b>Cumpleaños</b><small>Adulto o infantil</small></span></label>
+            <label class="option"><input type="radio" name="occasion" value="aniversario"><span><b>Aniversario</b><small>Fechas especiales</small></span></label>
+            <label class="option"><input type="radio" name="occasion" value="baby-shower"><span><b>Baby shower</b><small>Bienvenida y reveal</small></span></label>
+            <label class="option"><input type="radio" name="occasion" value="boda"><span><b>Boda / civil</b><small>Celebración íntima</small></span></label>
+            <label class="option"><input type="radio" name="occasion" value="corporativo"><span><b>Corporativo</b><small>Equipo o marca</small></span></label>
+            <label class="option"><input type="radio" name="occasion" value="otro"><span><b>Otro</b><small>Cuéntamelo después</small></span></label>
+          </div>
+          <div class="form-grid">
+            <div class="field"><label class="required" for="eventDate">Fecha que lo necesitas</label><input type="date" id="eventDate" name="eventDate" required><span class="help">La agenda se confirma manualmente.</span></div>
+            <div class="field"><label class="required" for="servings">Número de porciones</label><select id="servings" name="servings" required><option value="">Selecciona</option><option value="6-8">6–8 porciones</option><option value="10-12">10–12 porciones</option><option value="15-18">15–18 porciones</option><option value="20-24">20–24 porciones</option><option value="25-30">25–30 porciones</option><option value="30+">Más de 30</option></select></div>
+          </div>
+        </section>
+
+        <section class="form-step">
+          <p class="eyebrow">Paso 2 de 4</p><h2>Sabores y estructura</h2><p>Estas opciones pueden adaptarse al menú real de la pastelera.</p>
+          <div class="form-grid">
+            <div class="field"><label class="required" for="shape">Forma</label><select id="shape" name="shape" required><option value="">Selecciona</option><option>Redonda</option><option>Corazón</option><option>Cuadrada</option><option>Alta / vintage</option><option>Por definir</option></select></div>
+            <div class="field"><label class="required" for="flavor">Sabor del bizcocho</label><select id="flavor" name="flavor" required><option value="">Selecciona</option><option value="vainilla">Vainilla</option><option value="chocolate">Chocolate</option><option value="red-velvet">Red velvet</option><option value="limon">Limón</option><option value="zanahoria">Zanahoria</option></select></div>
+            <div class="field"><label class="required" for="filling">Relleno</label><select id="filling" name="filling" required><option value="">Selecciona</option><option value="manjar">Manjar</option><option value="ganache">Ganache de chocolate</option><option value="frutos-rojos">Frutos rojos</option><option value="crema-vainilla">Crema de vainilla</option></select></div>
+            <div class="field"><label class="required" for="coverage">Cobertura</label><select id="coverage" name="coverage" required><option value="">Selecciona</option><option value="buttercream">Buttercream</option><option value="chantilly">Chantilly estabilizada</option><option value="fondant">Fondant</option></select></div>
+            <div class="field full"><label for="allergies">Alergias o restricciones</label><textarea id="allergies" name="allergies" maxlength="300" placeholder="Ej. alergia a frutos secos, lácteos, etc."></textarea><span class="help">La información de alergias debe confirmarse directamente antes de aceptar el pedido.</span></div>
+          </div>
+        </section>
+
+        <section class="form-step">
+          <p class="eyebrow">Paso 3 de 4</p><h2>El diseño</h2><p>Aquí transformamos una idea general en una dirección visual clara.</p>
+          <div class="form-grid">
+            <div class="field"><label class="required" for="designComplexity">Nivel de diseño</label><select id="designComplexity" name="designComplexity" required><option value="">Selecciona</option><option value="simple">Minimalista</option><option value="detallado">Detallado</option><option value="premium">Premium / modelado</option></select></div>
+            <div class="field"><label for="budget">Presupuesto aproximado</label><select id="budget" name="budget"><option value="">Sin definir</option><option>S/ 60–90</option><option>S/ 90–140</option><option>S/ 140–200</option><option>S/ 200+</option></select></div>
+            <div class="field full"><label for="palette">Colores / estilo</label><input id="palette" name="palette" maxlength="120" placeholder="Ej. rosa empolvado, crema y detalles dorados"></div>
+            <div class="field full"><label for="cakeMessage">Texto que irá en el pastel</label><input id="cakeMessage" name="cakeMessage" maxlength="120" placeholder="Escríbelo exactamente como debe aparecer"></div>
+            <div class="field full"><label>Foto de inspiración</label><div class="upload-zone"><input type="file" id="referenceImage" accept="image/jpeg,image/png,image/webp"><strong>Subir referencia</strong><p class="help mt-8" data-upload-note>JPG, PNG o WEBP · máximo 1.5 MB</p><img class="upload-preview" data-upload-preview alt="Vista previa de la referencia"></div></div>
+            <div class="field full"><label for="notes">Detalles adicionales</label><textarea id="notes" name="notes" maxlength="600" placeholder="Tema, personaje, flores, topper, textura, acabado, etc."></textarea></div>
+          </div>
+        </section>
+
+        <section class="form-step">
+          <p class="eyebrow">Paso 4 de 4</p><h2>Datos de contacto y entrega</h2><p>La ubicación exacta de recojo se comparte únicamente cuando el pedido se confirma.</p>
+          <div class="form-grid">
+            <div class="field"><label class="required" for="name">Nombre</label><input id="name" name="name" required maxlength="80" autocomplete="name"></div>
+            <div class="field"><label class="required" for="phone">WhatsApp</label><input id="phone" name="phone" required inputmode="tel" placeholder="+51 999 999 999" autocomplete="tel"></div>
+            <div class="field"><label for="email">Correo</label><input id="email" name="email" type="email" maxlength="120" autocomplete="email"></div>
+            <div class="field"><label for="district">Distrito</label><input id="district" name="district" maxlength="80" placeholder="Ej. Los Olivos"></div>
+            <div class="field full"><label class="required" for="deliveryMethod">Forma de entrega</label><select id="deliveryMethod" name="deliveryMethod" required><option value="pickup">Recojo coordinado</option><option value="delivery">Delivery (sujeto a zona y tarifa)</option></select></div>
+          </div>
+          <div class="policy-box mt-24"><strong>Antes de enviar</strong><ul><li>El precio mostrado es un estimado, no una cotización final.</li><li>La fecha no queda reservada hasta que la pastelera confirme y reciba el adelanto.</li><li>Una foto de referencia sirve como inspiración; no se garantiza una copia idéntica.</li></ul></div>
+          <div class="alert" data-custom-alert></div>
+        </section>
+
+        <div class="form-nav"><button class="btn btn-secondary" type="button" data-prev>Anterior</button><button class="btn btn-primary" type="button" data-next>Siguiente</button><button class="btn btn-primary" type="submit" data-submit style="display:none">Enviar solicitud</button></div>
+      </form>
+    </div>
+
+    <aside class="summary-card" aria-label="Resumen del pastel">
+      <p class="eyebrow">Tu resumen</p><h3>Así va tomando forma</h3>
+      <div class="summary-list">
+        <div class="summary-row"><span>Ocasión</span><strong data-summary-occasion>—</strong></div>
+        <div class="summary-row"><span>Porciones</span><strong data-summary-servings>—</strong></div>
+        <div class="summary-row"><span>Sabor</span><strong data-summary-flavor>—</strong></div>
+        <div class="summary-row"><span>Relleno</span><strong data-summary-filling>—</strong></div>
+        <div class="summary-row"><span>Fecha</span><strong data-summary-date>Por definir</strong></div>
+      </div>
+      <div class="estimate"><div><small>Estimado desde</small><strong data-estimate>S/ 85</strong></div></div>
+      <p class="summary-note">El cálculo orienta según porciones, relleno, cobertura y complejidad. Toppers, flores, modelado, delivery y pedidos urgentes pueden cambiar el precio.</p>
+    </aside>
+  </div></section>
+</main>
+<div data-site-footer></div><div data-whatsapp-float></div>
+</body>
+</html>
