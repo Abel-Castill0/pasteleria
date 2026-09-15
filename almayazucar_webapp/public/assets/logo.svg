@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title desc">
+  <title id="title">Alma &amp; Azúcar</title>
+  <desc id="desc">Monograma floral con una pequeña torta</desc>
+  <rect width="180" height="180" rx="90" fill="#F8EEE9"/>
+  <circle cx="90" cy="90" r="70" fill="none" stroke="#9E675B" stroke-width="2"/>
+  <path d="M55 111h70M62 96h56v15H62z" fill="#5D3A34"/>
+  <path d="M68 96c1-16 11-25 22-25s21 9 22 25" fill="#DFA99E"/>
+  <path d="M90 69c-6-11 7-18 9-7 7-8 16 3 8 9" fill="none" stroke="#9E675B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M45 83c10-19 22-27 35-31M135 83c-10-19-22-27-35-31" fill="none" stroke="#B88476" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="63" cy="63" r="4" fill="#DFA99E"/><circle cx="117" cy="63" r="4" fill="#DFA99E"/>
+</svg>

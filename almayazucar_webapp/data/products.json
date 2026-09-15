@@ -1,0 +1,74 @@
+[
+  {
+    "id": "torta-flores",
+    "name": "Torta Flores de Vainilla",
+    "category": "tortas",
+    "price": 85,
+    "servings": "10–12 porciones",
+    "leadTime": "48 h",
+    "badge": "Más pedida",
+    "description": "Bizcocho de vainilla húmedo, relleno de manjar y crema suave, acabado floral minimalista.",
+    "image": "https://images.unsplash.com/photo-1613140952277-1c6bd0386ff5?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Torta elegante con decoración floral en tonos suaves"
+  },
+  {
+    "id": "torta-choco-rosa",
+    "name": "Torta Choco Rosa",
+    "category": "tortas",
+    "price": 95,
+    "servings": "12–14 porciones",
+    "leadTime": "48 h",
+    "badge": "Signature",
+    "description": "Chocolate intenso, ganache cremosa y rosetones de buttercream. Ideal para cumpleaños y celebraciones.",
+    "image": "https://images.unsplash.com/photo-1584818676673-f034ea74ccfc?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Torta de chocolate decorada con crema rosada"
+  },
+  {
+    "id": "cupcakes-box",
+    "name": "Box de 6 Cupcakes",
+    "category": "cupcakes",
+    "price": 48,
+    "servings": "6 unidades",
+    "leadTime": "24 h",
+    "badge": "Para regalar",
+    "description": "Cupcakes artesanales con crema decorada. Se puede elegir hasta 2 sabores por caja.",
+    "image": "https://images.unsplash.com/photo-1635211876039-7b7b53cd7514?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Selección de cupcakes artesanales decorados"
+  },
+  {
+    "id": "mini-torta",
+    "name": "Mini Torta Personalizada",
+    "category": "tortas",
+    "price": 55,
+    "servings": "4–6 porciones",
+    "leadTime": "48 h",
+    "badge": "Nueva",
+    "description": "Formato pequeño para detalles especiales. Incluye hasta 2 colores y mensaje corto.",
+    "image": "https://images.unsplash.com/photo-1584818676680-44804433340c?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Pastel pequeño con crema rosada"
+  },
+  {
+    "id": "brownies-box",
+    "name": "Box de Brownies",
+    "category": "postres",
+    "price": 42,
+    "servings": "9 porciones",
+    "leadTime": "24 h",
+    "badge": "Favorito",
+    "description": "Brownies húmedos de chocolate, acabado crocante y toppings de temporada.",
+    "image": "https://images.unsplash.com/photo-1623246123320-0d6636755796?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Postres de chocolate artesanales"
+  },
+  {
+    "id": "cheesecake-frutos",
+    "name": "Cheesecake de Frutos Rojos",
+    "category": "postres",
+    "price": 72,
+    "servings": "8–10 porciones",
+    "leadTime": "48 h",
+    "badge": "Temporada",
+    "description": "Cheesecake cremoso con base crocante y salsa casera de frutos rojos.",
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85",
+    "alt": "Cheesecake artesanal con frutos rojos"
+  }
+]

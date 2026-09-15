@@ -1,0 +1,9 @@
+{
+  "name": "Alma & Azúcar",
+  "short_name": "Alma & Azúcar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffaf7",
+  "theme_color": "#382522",
+  "description": "Pastelería artesanal por encargo"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "alma-y-azucar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web app full-stack para una pastelera independiente: catálogo, carrito y pedidos personalizados.",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check public/assets/app.js && node --check public/assets/custom-order.js && node --check public/assets/catalog.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
