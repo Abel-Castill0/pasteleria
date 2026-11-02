@@ -148,3 +148,9 @@ Esta versión es una base funcional completa para demo/validación. Para escalar
 ## Nota de negocio
 
 El sitio evita publicar una dirección residencial porque el emprendimiento funciona desde casa. La ubicación exacta de recojo debe compartirse únicamente con pedidos confirmados.
+
+---
+
+### Desarrollado por
+
+**Abel Castillo** · 🌐 [Portafolio profesional](https://portafolio-henna-mu.vercel.app/)
