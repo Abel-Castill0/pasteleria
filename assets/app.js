@@ -65,7 +65,7 @@ function renderShell() {
             <div><div class="footer-title">Información</div><div class="footer-links"><a href="nosotros.html">La pastelera</a><a href="contacto.html#faq">Preguntas frecuentes</a><a href="contacto.html#politicas">Políticas de pedido</a></div></div>
             <div><div class="footer-title">Pedidos</div><div class="footer-links"><a href="${waLink('Hola, quisiera información para hacer un pedido.')}" target="_blank" rel="noopener">WhatsApp · ${CONFIG.whatsappDisplay}</a><a href="${CONFIG.instagramUrl}" target="_blank" rel="noopener">Instagram · ${CONFIG.instagram}</a><span>${CONFIG.pickupText}</span></div></div>
           </div>
-          <div class="footer-bottom"><span>© ${new Date().getFullYear()} ${CONFIG.brand}. Demo profesional personalizable.</span><span>Fotos de muestra: Unsplash · reemplazar por fotos reales antes de publicar.</span><span>Desarrollado por <a href="https://portafolio-henna-mu.vercel.app/" target="_blank" rel="noopener noreferrer">Abel Castillo</a></span></div>
+          <div class="footer-bottom"><span>© ${new Date().getFullYear()} ${CONFIG.brand}. Demo profesional personalizable.</span><span>Fotos de muestra: Unsplash · reemplazar por fotos reales antes de publicar.</span><span>Desarrollado por <a href="https://portafolio-abelcastillo.vercel.app/" target="_blank" rel="noopener noreferrer">Abel Castillo</a></span></div>
         </div>
       </footer>`;
   }
